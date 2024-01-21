@@ -5,10 +5,10 @@ echo
 echo
 echo
 chmod +x *
-echo "-----------------"
-echo "---Apache-Menu---"
-echo "-----------------"
-echo "		Contact :nitymerharnmh@gmail.com"
+echo "---------------------"
+echo "---Apache-Menu--v1---"
+echo "---------------------"
+echo "		Contact :thegodfraz@gmail.com"
 echo
 echo
 echo "[1] --> Start Apache"
@@ -27,7 +27,7 @@ if [[ $menu == 1 || $menu == 01 ]];  then
 	echo "Starting Apache Server to localhost."
        service apache2 start
        sleep 1
-       echo "Apache server successfully started, If error please contact nitymerharnmh@gmail.com"
+       echo "Apache server successfully started, If error please contact thegodfraz@gmail.com"
        echo "To check the address use ifconfig and find local address"
        bash apache2.sh
 
@@ -39,7 +39,7 @@ elif [[ $menu == 3 || $menu == 03 ]]; then
         echo "Re-starting Apache server."
 	service apache2 restart
 	sleep 1
-	echo "Re-start Apache completed, If any error contact nitymerharnmh@gmail.com"
+	echo "Re-start Apache completed, If any error contact thegodfraz@gmail.com"
 	bash apache2.sh
 
 elif [[ $menu == 4 || $menu == 04 ]]; then
