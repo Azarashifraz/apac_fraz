@@ -10,7 +10,7 @@ thegodfraz@gmail.com
 
 ##### Usage:
 ```
-git clone https://github.com/Azarashifraz/Apache.git
-cd Apache
+git clone https://github.com/Azarashifraz/apac_fraz.git
+cd apac_fraz
 bash apache2.sh
 ```
