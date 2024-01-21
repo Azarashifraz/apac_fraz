@@ -12,5 +12,5 @@ thegodfraz@gmail.com
 ```
 git clone https://github.com/Azarashifraz/Apache.git
 cd Apache
-bash apache2,sh
+bash apache2.sh
 ```
